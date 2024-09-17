@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- <h1>saifur rahman saif </h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quisquam.</p>
+
+     <ul>
+        <li>mango</li>
+        <li class="abc">Apple</li>
+        <li>kola</li>
+
+     </ul>
+     <h4 class="bbb">my name is saifur</h4>
+
+     <p id ="xyz">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo repudiandae ratione totam repellat quo quis eligendi reiciendis, natus et hic?</p>
+     <br> -->
+    <button onclick="console.log('facebook','youtube')">my name is</button>
+
+    <button onclick="document.body.style.backgroundColor = 'green'">golden button</button>
+
+    <button id="switch">click here</button>
+
+    <script>
+        const button =document.getElementById('switch');
+ button .onclick = changeBackground;
+ function  changeBackground (){
+    document.body.style.backgroundColor = 'orange';
+ };
+    </script>
+  <!-- simple projrct -->
+   <div class="box">
+    
+   <button id="rolladdress">my roll and address</button>
+   <p id="information"></p>
+     </div>
+
+   
+
+
+  <script>
+    const botam =document.getElementById('rolladdress');
+    botam.onclick = Shownewtext;
+    function Shownewtext (){
+
+        const rollnumber ='763070';
+        const address ='Gazipur';
+
+        document.getElementById('information') .innerText = `Roll: $ {rollnumber}, Address:${address}`;
+        
+        
+        
+    }
+  </script>
+
+
+  <button id="personaldata">my Personal information</button>
+  <p id="Detalis"></p>
+
+  <script>
+
+    const push =document.getElementById('personaldata');
+    push.onclick = showpersonaldata;
+    function showpersonaldata (){
+
+        const nmae = 'Saifur Rahman Saif';
+        const Address = 'Bogura';
+        const Phone  = '014042607317';
+        const studey = 'Diploma Engineraing in cse ';
+
+ document.getElementById('Detalis') .innerText = ` Name : $ {name}, Address: $ {address}, Phone:$ { phone}, Studey : $ {studey}`;
+
+    }
+    
+
+
+  </script>
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="script.js"></script>
+
+    
+</body>
+</html>
